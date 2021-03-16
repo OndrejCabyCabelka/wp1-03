@@ -10,7 +10,7 @@
     
     <?php 
     $r = rand(1,100);
-    $difane ("PI", 3.14);
+    $define ("PI", 3.14);
 
     // obvod
     $sircuit = 2*$π*$r;
