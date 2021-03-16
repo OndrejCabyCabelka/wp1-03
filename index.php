@@ -10,20 +10,21 @@
     
     <?php 
     $r = rand(1,100);
-    $define ("PI", 3.14);
+    define("PI", 3.14);
 
     // obvod
-    $sircuit = 2*$π*$r;
+    $sircuit = 2*PI*$r;
 
     // obsah
-    $area = $π*$r*$r;
+    $area = PI*$r*$r;
 
     
 
     ?>
 
-    <p>Obvod kruhu  = <?= $sircuit?> </p>
-    <p>Obsah kruhu  = <?= $area?> </p>
+    <p>Poloměr kruhu je <?= $r ?> cm </p>
+    <p>Obvod kruhu  = <?= $sircuit?> cm </p>
+    <p>Obsah kruhu  = <?= $area?> cm2 </p>
     
 </body>
 </html>
