@@ -10,7 +10,7 @@
     
     <?php 
     $r = rand(1,100);
-    $π = "3,14";
+    $xyz = PI *3,14;
 
     // obvod
     $sircuit = 2*$π*$r;
